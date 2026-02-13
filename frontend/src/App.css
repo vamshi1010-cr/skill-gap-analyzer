@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 25px;
+  color: #1e3c72;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.input:focus {
+  border-color: #2a5298;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background: #1e3c72;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #16325c;
+}
+
+.result-box {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.progress {
+  height: 25px;
+  background: #2a5298;
+  text-align: center;
+  color: white;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strong {
+  width: 45%;
+  background: #e6f9ec;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.missing {
+  width: 45%;
+  background: #fdecea;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+ul {
+  padding-left: 15px;
+}
